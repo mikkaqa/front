@@ -1,0 +1,58 @@
+.slide {
+    /* Позиционирование */
+    position: relative;
+
+    /* Блочная модель */
+    width: 100%;
+
+    /* Оформление */
+    border: 1px solid #cacad1;
+}
+
+.resizeHandle {
+    /* Позиционирование */
+    position: relative;
+    z-index: 10;
+
+    /* Блочная модель */
+    width: 5px;
+    height: 5px;
+
+    /* Оформление */
+
+    border: 3px solid #0b57d0;
+    background-color: #d1e8f3;
+}
+.selectedSlide {
+    outline: 3px solid #0b57d0
+}
+
+.slideWrapper {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.topLeft {
+    cursor: nwse-resize;
+}
+.topRight {
+    cursor: nesw-resize;
+}
+.bottomLeft {
+    cursor: nesw-resize;
+}
+.bottomRight {
+    cursor: nwse-resize;
+}
+.middleLeft {
+    cursor: ew-resize;
+}
+.middleRight {
+    cursor: ew-resize;
+}
+.middleTop {
+    cursor: ns-resize;
+}
+.middleBottom {
+    cursor: ns-resize;
+}

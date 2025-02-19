@@ -1,0 +1,23 @@
+#root {
+    /* Блочаня модель */
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 100%;
+
+    /* Оформление */
+    text-align: center;
+}
+
+:root {
+    --topPanelHeight:166px;
+}
+
+.container {
+    /* Блочаня модель */
+    display: flex;
+    height: calc(100vh - var(--topPanelHeight));
+
+    /* Оформление */
+    border-top: 2px solid silver;
+}

@@ -1,0 +1,56 @@
+:root {
+    /* Типографика */
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    /* Оформление */
+    color-scheme: light dark;
+    color: rgba(000, 000, 000, 0.87);
+    background-color: #f2f8ff;
+
+    /* Разное */
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+    width: 100%;
+}
+
+body {
+    /* Позиционирование */
+    margin: 0;
+
+    /* Блочная модель */
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+button {
+    /* Блочная модель */
+    padding: 0.6em 1.2em;
+
+    /* Типографика */
+    font-family: inherit;
+    font-size: 1em;
+    font-weight: 500;
+
+    /* Оформление */
+    background-color: #1a1a1a;
+    border: 1px solid transparent;
+    border-radius: 8px;
+
+    /* Анимация */
+    cursor: pointer;
+    transition: border-color 0.25s;
+}

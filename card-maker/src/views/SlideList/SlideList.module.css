@@ -1,0 +1,62 @@
+.slideList {
+    /* Блочная модель */
+    padding: 1rem;
+
+    /* Оформление */
+    background-color: #f2f8ff;
+
+    /* Анимация */
+    overflow-y: auto;
+}
+
+.slideList::-webkit-scrollbar {
+    /* Блочная модель */
+    width: 10px;
+
+    /* Оформление */
+    background-color: #f9f9fd;
+}
+
+.slideList::-webkit-scrollbar-thumb {
+    /* Оформление */
+    background-color: #ced6d6;
+    border-radius: 10px;
+}
+
+.slideList::-webkit-scrollbar-track {
+    /* Оформление */
+    border-radius: 10px;
+    background-color: #f2f8ff;
+
+    /* Разное */
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+}
+.selectedSlide {
+    outline: 3px solid #0b57d0
+}
+.item {
+
+    /* Оформление */
+    border-radius: 10px;
+
+    /* Анимация */
+    pointer-events: none;
+}
+
+.slideWrapper {
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.slide {
+    border-radius: inherit;
+}
+.dragging {
+    opacity: 0.5; /* Прозрачность для перетаскиваемого слайда */
+}
+.dragover {
+    border: 2px dashed #0b57d0; /* Подсветка для элемента под курсором во время перетаскивания */
+}

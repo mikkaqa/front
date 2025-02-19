@@ -1,0 +1,29 @@
+.topPanel {
+    /* Блочная модель*/
+    padding: 10px;
+    height: var(--topPanelHeight);
+    width: 100vw;
+
+    /* Оформление */
+    background-color: #dadce0;
+}
+.title {
+    /* Блочная модель*/
+    margin-inline: 10px;
+    padding-inline: 5px;
+    width: auto;
+    min-width: 100px;
+    max-width: 500px;
+    margin-bottom: 10px;
+    /* Оформление */
+    background-color: transparent;
+    border: none;
+
+    /* Типографика */
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    color: #1a1a1a;
+}
+.button {
+    margin: 3px;
+}
